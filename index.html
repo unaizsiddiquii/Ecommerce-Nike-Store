@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-top">
+            <div class="nav-item">
+                <img src="./image/sneakers.png" alt="">
+            </div>
+            <div class="nav-item">
+                <div class="search">
+                    <input type="text" class="search-input" placeholder="Search...">
+                    <img src="./image/search.png" width="20" height="20" alt="" class="search-icon">
+                </div>
+            </div>
+            <div class="nav-item">
+                <span class="limited-offer">Limited Offer!</span>
+            </div>
+        </div>
+
+        <div class="nav-bottom">
+            <h3 class="menu-item">AIR FORCE</h3>
+            <h3 class="menu-item">JORDEN</h3>
+            <h3 class="menu-item">BLAZER</h3>
+            <h3 class="menu-item">CRATER</h3>
+            <h3 class="menu-item">HIPPIE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="slider-wrapper">
+            <div class="slider-item">
+                <img class="slide-img" src="./image/air.png" alt="air">
+                <div class="slide-bg"></div>
+                <h1 class="slider-title">AIR FORCE<br>NEW<br>SEASON</h1>
+                <h2 class="slider-price">$199</h2>
+                <a href="#product">
+
+                    <button class="buy-button">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="slider-item">
+                <img class="slide-img" src="./image/jordan.png" alt="air">
+                <div class="slide-bg"></div>
+                <h1 class="slider-title">JORDEN<br>NEW<br>SEASON</h1>
+                <h2 class="slider-price">$119</h2>
+                <a href="#product">
+
+                    <button class="buy-button">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="slider-item">
+                <img class="slide-img" src="./image/blazer.png" alt="air">
+                <div class="slide-bg"></div>
+                <h1 class="slider-title">BLAZER<br>NEW<br>SEASON</h1>
+                <h2 class="slider-price">$99</h2>
+                <a href="#product">
+
+                    <button class="buy-button">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="slider-item">
+                <img class="slide-img" src="./image/crater.png" alt="air">
+                <div class="slide-bg"></div>
+                <h1 class="slider-title">CRATER<br>NEW<br>SEASON</h1>
+                <h2 class="slider-price">$89</h2>
+                <a href="#product">
+
+                    <button class="buy-button">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="slider-item">
+                <img class="slide-img" src="./image/hippie.png" alt="air">
+                <div class="slide-bg"></div>
+                <h1 class="slider-title">HIPPIE<br>NEW<br>SEASON</h1>
+                <h2 class="slider-price">$129</h2>
+                <a href="#product">
+
+                    <button class="buy-button">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./image/shipping.png" alt="" class="feature-icon">
+            <span class="feature-title">FREE SHIPPING</span>
+            <span class="feature-desc">Free worldwild shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img src="./image/return.png" alt="" class="feature-icon">
+            <span class="feature-title">30 DAYS RETURN</span>
+            <span class="feature-desc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img src="./image/gift.png" alt="" class="feature-icon">
+            <span class="feature-title">GIFT CARDS</span>
+            <span class="feature-desc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img src="./image/contact.png" alt="" class="feature-icon">
+            <span class="feature-title">CONTACT US!</span>
+            <span class="feature-desc">Free worldwild shipping on all orders.</span>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="./image/air.png" alt="" class="product-img">
+        <div class="product-details">
+            <h1 class="product-title">AIR FORCE</h1>
+            <h2 class="product-price">$199</h2>
+            <p class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea facilis quaerat unde
+                eum nam corporis cum consectetur ad ratione debitis.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">42</div>
+            </div>
+            <button class="product-button">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="pay-title">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Unaiz Siddiqui" class="pay-input">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 626534" class="pay-input">
+            <label>Address</label>
+            <input type="text" placeholder="Bhopal" class="pay-input">
+            <h1 class="pay-title">Card Information</h1>
+            <div class="card-icons">
+                <img src="./image/visa.png" width="40" alt="" class="card-icon">
+                <img src="./image/master.png" width="40" alt="" class="card-icon">
+
+            </div>
+            <input type="password" class="pay-input" placeholder="Card Number">
+            <div class="card-info">
+                <input type="text" placeholder="mm" class="pay-input sm">
+                <input type="text" placeholder="yyyy" class="pay-input sm">
+                <input type="text" placeholder="cvv" class="pay-input sm">
+            </div>
+            <button class="pay-btn">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
