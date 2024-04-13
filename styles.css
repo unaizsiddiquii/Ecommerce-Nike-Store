@@ -236,6 +236,9 @@ label {
   justify-content: space-between;
 
 }
+.card-info input::placeholder{
+  text-align: center;
+}
 
 .sm{
   width: 50px;
