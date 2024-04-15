@@ -330,3 +330,20 @@ label {
   background-color: white;
   color: black;
 }
+
+/* Gallery */
+
+
+.gallery{
+padding: 50px;
+display: flex;
+}
+.gallery-item{
+  flex: 1;
+  padding: 50px;
+
+}
+
+.gallery-img{
+  width: 100%;
+}
