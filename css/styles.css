@@ -224,26 +224,24 @@ label {
   margin: 10px 0px;
 }
 
-.pay-input::placeholder{
+.pay-input::placeholder {
   color: rgb(185, 185, 185);
 }
-.card-icon{
+.card-icon {
   margin-right: 10px;
-
 }
-.card-info{
+.card-info {
   display: flex;
   justify-content: space-between;
-
 }
-.card-info input::placeholder{
+.card-info input::placeholder {
   text-align: center;
 }
 
-.sm{
+.sm {
   width: 50px;
 }
-.pay-btn{
+.pay-btn {
   position: absolute;
   height: 45px;
   bottom: -40px;
@@ -251,12 +249,12 @@ label {
   left: 0;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    background-color: #369e62;
-    color: white;
-    border: none; 
-    cursor: pointer;
+  background-color: #369e62;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
-.close{
+.close {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -267,7 +265,6 @@ label {
   text-align: center;
   cursor: pointer;
   padding: 7px;
-  
 }
 .product-img {
   width: 50%;
@@ -333,26 +330,24 @@ label {
 
 /* Gallery */
 
-
-.gallery{
-padding: 50px;
-display: flex;
+.gallery {
+  padding: 50px;
+  display: flex;
 }
-.gallery-item{
+.gallery-item {
   flex: 1;
   padding: 50px;
-
 }
 
-.gallery-img{
+.gallery-img {
   width: 100%;
 }
 
-.new-season{
+.new-season {
   display: flex;
 }
 
-.ns-item{
+.ns-item {
   flex: 1;
   background-color: black;
   color: white;
@@ -362,44 +357,43 @@ display: flex;
   flex-direction: column;
   text-align: center;
 }
-.ns-img{
+.ns-img {
   width: 100%;
   height: 500px;
 }
 
-.ns-title{
+.ns-title {
   font-size: 40px;
-
 }
-.ns-button{
+.ns-button {
   padding: 15px;
   font-size: 600;
   cursor: pointer;
   background-color: white;
   border: none;
 }
-footer{
+footer {
   display: flex;
 }
-.footer-left{
+.footer-left {
   flex: 2;
   display: flex;
   justify-content: space-between;
   padding: 50px;
 }
-.footer-menu-title{
+.footer-menu-title {
   font-size: 16px;
 }
-.footer-menu-list{
+.footer-menu-list {
   padding: 0;
   list-style: none;
 }
-.footer-menu-item{
+.footer-menu-item {
   margin-bottom: 10px;
   color: gray;
   cursor: pointer;
 }
-.footer-right{
+.footer-right {
   flex: 1;
   padding: 50px;
   display: flex;
@@ -407,29 +401,26 @@ footer{
   justify-content: space-between;
 }
 
-.footer-input{
+.footer-input {
   padding: 5px;
-
 }
-.footer-btton
-{
+.footer-btton {
   padding: 6px;
   background-color: black;
   color: white;
   border: none;
 }
 
-.footer-icons{
+.footer-icons {
   display: flex;
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-.footer-icon{
+.footer-icon {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
-.copyright
-{
+.copyright {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1.5px;
