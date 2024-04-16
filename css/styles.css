@@ -186,7 +186,7 @@ nav {
 }
 
 .product {
-  height: 100vh;
+  height: 92vh;
   background-color: whitesmoke;
   position: relative;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
@@ -424,4 +424,120 @@ footer {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 20px;
+  }
+  .search {
+    display: none;
+  }
+  .nav-bottom {
+    flex-wrap: wrap;
+  }
+
+  .menu-item {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .slider {
+    clip-path: none;
+  }
+  .slide-img {
+    width: 90%;
+  }
+  .slide-bg {
+    width: 100%;
+    height: 100%;
+  }
+  .slider-title {
+    display: none;
+  }
+  .slider-price {
+    top: unset;
+    left: 0;
+    bottom: -8%;
+    background-color: lightgray;
+    color: black;
+    border-color: #111;
+    font-size: 40px;
+  }
+  .buy-button {
+    top: unset;
+    right: 1%;
+    bottom: 0.9%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .product {
+    clip-path: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-img {
+    width: 98%;
+  }
+  .product-title {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+  }
+  .product-details {
+    position: relative;
+    top: 0;
+    right: unset;
+    width: 98%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .gallery {
+    display: none;
+  }
+  .new-season {
+    flex-direction: column;
+    padding: 0;
+  }
+  .ns-item {
+    padding: 0;
+  }
+  .ns-button {
+    margin-bottom: 20px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer-right {
+    padding: 0 30px;
+  }
+  .footer-input {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .footer-mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-right-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-btton {
+    padding: 6px;
+    width: 20vw;
+  }
 }
